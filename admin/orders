@@ -1,5 +1,11 @@
-/orders
+/admin/orders
    OrdersList.js
    OrderDetails.js
    OrderStatus.js
    OrderFilters.js
+   OrderTimeline.js
+   OrderAddress.js
+   OrderDelivery.js
+   OrderPayment.js
+   OrderItems.js
+   useOrders.js

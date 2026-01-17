@@ -46,3 +46,6 @@ export async function getAllPublications(req, res, next) {
     next(err);
   }
 }
+
+if (req.body.coverUrl) publication.coverUrl = req.body.coverUrl;
+if (req.body.fileUrl) publication.fileUrl = req.body.fileUrl;

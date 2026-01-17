@@ -1,0 +1,6 @@
+/publications
+   PublicationsList.js
+   AddPublication.js
+   EditPublication.js
+   UploadFiles.js
+   PublicationVisibility.js

@@ -1,0 +1,10 @@
+/settings
+   SettingsGeneral.js
+   SettingsPayments.js
+   SettingsDelivery.js
+   SettingsMail.js
+   SettingsSEO.js
+   SettingsTheme.js
+   SettingsSecurity.js
+   SettingsValidator.js
+   useSettings.js

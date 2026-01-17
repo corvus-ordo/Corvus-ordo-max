@@ -1,0 +1,8 @@
+/auth
+   login.js
+   register.js
+   resetPassword.js
+   session.js
+   roles.js
+   permissions.js
+   twoFactor.js

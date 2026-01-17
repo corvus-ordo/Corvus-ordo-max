@@ -1,4 +1,6 @@
-/reviews
-   ReviewsList.js
-   ReviewDetails.js
-   ReviewModeration.js
+/admin/reviews
+   ReviewsAdminList.js
+   ReviewAdminDetails.js
+   ReviewAdminDelete.js
+   ReviewAdminFilters.js
+   useAdminReviews.js

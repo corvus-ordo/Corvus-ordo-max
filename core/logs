@@ -1,0 +1,5 @@
+/logs
+   errors.log
+   operators.log
+   payments.log
+   orders.log

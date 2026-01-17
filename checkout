@@ -1,0 +1,8 @@
+/checkout
+   CheckoutPage.js
+   CheckoutForm.js
+   DeliveryOptions.js
+   PaymentPlaceholder.js
+   OrderSummary.js
+   SubmitOrder.js
+   useCheckout.js

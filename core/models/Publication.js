@@ -40,3 +40,10 @@ export default (sequelize, DataTypes) => {
 
   return Publication;
 };
+
+coverUrl: {
+  type: DataTypes.STRING
+},
+fileUrl: {
+  type: DataTypes.STRING
+}

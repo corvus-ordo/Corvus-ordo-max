@@ -36,6 +36,12 @@ export default (sequelize, DataTypes) => {
 
   Publication.associate = models => {
     Publication.hasMany(models.OrderItem, { foreignKey: 'publicationId' });
+    Publication.belongsTo(models.Category, { foreignKey: 'categoryId' });
+Publication.belongsToMany(models.Tag, {
+  through: 'PublicationTags',
+  foreignKey: 'publicationId'
+});
+
   };
 
   return Publication;
@@ -46,4 +52,9 @@ coverUrl: {
 },
 fileUrl: {
   type: DataTypes.STRING
+}
+
+categoryId: {
+  type: DataTypes.UUID,
+  allowNull: true
 }

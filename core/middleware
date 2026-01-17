@@ -1,5 +1,0 @@
-/middleware
-   authMiddleware.js
-   roleMiddleware.js
-   operatorLog.js
-   validate.js

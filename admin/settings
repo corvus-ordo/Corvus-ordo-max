@@ -1,0 +1,7 @@
+/settings
+   GeneralSettings.js
+   MailSettings.js
+   PaymentSettings.js
+   DeliverySettings.js
+   SecuritySettings.js
+   BrandingSettings.js

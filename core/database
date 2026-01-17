@@ -1,0 +1,4 @@
+/database
+   connection.js
+   migrations/
+   seeds/

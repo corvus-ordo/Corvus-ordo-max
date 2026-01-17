@@ -1,0 +1,6 @@
+/admin/errors
+   ErrorsDashboard.js
+   ErrorsList.js
+   ErrorsDetails.js
+   ErrorsFilters.js
+   useAdminErrors.js

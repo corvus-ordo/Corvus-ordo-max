@@ -1,5 +1,9 @@
-/notifications
-   NotificationsList.js
-   SendNotification.js
-   SendToUser.js
-   NotificationHistory.js
+/admin
+   /notifications
+      NotificationsList.js
+      NotificationDetails.js
+      NotificationCreate.js
+      NotificationSend.js
+      NotificationFilters.js
+      useNotifications.js
+

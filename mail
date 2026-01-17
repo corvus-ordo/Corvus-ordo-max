@@ -1,0 +1,16 @@
+/mail
+   MailService.js
+   MailTemplates.js
+   MailQueue.js
+   MailSender.js
+   MailValidator.js
+   MailHistory.js
+   useMail.js
+   /templates
+      orderConfirmation.html
+      paymentSuccess.html
+      paymentFailed.html
+      orderShipped.html
+      passwordReset.html
+      welcomeUser.html
+      newsletter.html

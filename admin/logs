@@ -1,0 +1,5 @@
+/admin/logs
+   LogsDashboard.js
+   LogsList.js
+   LogsDetails.js
+   LogsFilters.js

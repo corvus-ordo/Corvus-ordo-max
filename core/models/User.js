@@ -28,9 +28,17 @@ export default (sequelize, DataTypes) => {
 
   User.associate = models => {
     User.hasMany(models.Order, { foreignKey: 'userId' });
+    User.belongsTo(models.Role, { foreignKey: 'roleId' });
+
   };
 
   return User;
 };
+
+roleId: {
+  type: DataTypes.UUID,
+  allowNull: true
+}
+
 
 

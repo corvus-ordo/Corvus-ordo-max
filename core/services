@@ -1,9 +1,0 @@
-/services
-   userService.js
-   publicationService.js
-   articleService.js
-   orderService.js
-   paymentService.js
-   notificationService.js
-   reviewService.js
-   messageService.js

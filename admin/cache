@@ -1,0 +1,6 @@
+/admin/cache
+   CacheDashboard.js
+   CacheList.js
+   CacheClear.js
+   CacheSettings.js
+   useAdminCache.js

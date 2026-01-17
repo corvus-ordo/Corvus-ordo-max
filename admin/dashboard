@@ -1,0 +1,6 @@
+/dashboard
+   DashboardPage.js
+   StatsCards.js
+   SalesChart.js
+   PopularPublications.js
+   OperatorActivity.js

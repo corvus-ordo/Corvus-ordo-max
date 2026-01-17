@@ -29,3 +29,8 @@ export default (sequelize, DataTypes) => {
 
   return Order;
 };
+
+deliveryId: {
+  type: DataTypes.UUID,
+  allowNull: true
+}

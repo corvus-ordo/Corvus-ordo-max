@@ -1,6 +1,11 @@
-/dashboard
-   DashboardPage.js
-   StatsCards.js
-   SalesChart.js
-   PopularPublications.js
-   OperatorActivity.js
+/admin
+   /dashboard
+      DashboardPage.js
+      DashboardStats.js
+      DashboardCharts.js
+      DashboardSales.js
+      DashboardUsers.js
+      DashboardPublications.js
+      DashboardOrders.js
+      DashboardNotifications.js
+      useDashboard.js

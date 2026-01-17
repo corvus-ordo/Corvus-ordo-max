@@ -8,7 +8,7 @@ export default (sequelize, DataTypes) => {
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false // np. "Kurier DPD", "InPost Paczkomat"
+      allowNull: false
     },
     price: {
       type: DataTypes.DECIMAL(10, 2),
@@ -16,7 +16,7 @@ export default (sequelize, DataTypes) => {
     },
     estimatedDays: {
       type: DataTypes.INTEGER,
-      allowNull: false // np. 1–3 dni
+      allowNull: false
     },
     isActive: {
       type: DataTypes.BOOLEAN,
@@ -30,3 +30,4 @@ export default (sequelize, DataTypes) => {
 
   return Delivery;
 };
+

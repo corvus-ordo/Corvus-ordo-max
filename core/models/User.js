@@ -40,5 +40,9 @@ roleId: {
   allowNull: true
 }
 
+role: {
+  type: DataTypes.ENUM('user', 'moderator', 'support', 'editor', 'admin', 'superadmin'),
+  defaultValue: 'user'
+}
 
 

@@ -61,3 +61,9 @@ export async function getOrder(req, res, next) {
     next(err);
   }
 }
+
+await notificationService.createNotification(
+  'order',
+  `Nowe zamówienie #${order.id}`
+);
+

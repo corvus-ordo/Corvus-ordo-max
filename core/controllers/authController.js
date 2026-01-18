@@ -26,3 +26,8 @@ export async function login(req, res, next) {
     next(err);
   }
 }
+
+await notificationService.createNotification(
+  'user',
+  `Nowy użytkownik: ${user.email}`
+);

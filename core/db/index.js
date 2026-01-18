@@ -35,3 +35,5 @@ db.Sequelize = Sequelize;
 
 export default db;
 
+import { registerAuditHooks } from './auditHooks.js';
+registerAuditHooks();

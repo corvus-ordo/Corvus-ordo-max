@@ -80,3 +80,5 @@ router.get('/notifications', authMiddleware, requireRole('admin'), getAllNotific
 router.patch('/notifications/:id/read', authMiddleware, requireRole('admin'), markNotificationRead);
 
 export default router;
+
+router.patch('/users/:id/role', authMiddleware, requireRole('superadmin'), setRole);

@@ -251,3 +251,17 @@ export async function markNotificationRead(req, res, next) {
     next(err);
   }
 }
+
+export async function setRole(req, res, next) {
+  try {
+    const user = await db.User.findByPk(req.params.id);
+    if (!user) return res.status(404).json({ error: 'Not found' });
+
+    user.role = req.body.role;
+    await user.save();
+
+    res.json({ message: 'Role updated', user });
+  } catch (err) {
+    next(err);
+  }
+}

@@ -32,3 +32,7 @@ export async function getPublicationComments(req, res, next) {
   }
 }
 
+await notificationService.createNotification(
+  'comment',
+  `Nowy komentarz do publikacji ${req.params.pubId}`
+);

@@ -35,7 +35,18 @@ export default (sequelize, DataTypes) => {
   return AuditLog;
 };
 
+
 userEmail: {
   type: DataTypes.STRING,
   allowNull: true
 }
+
+await db.AuditLog.create({
+  tableName: model.name,
+  recordId: instance.id,
+  userEmail: req.user?.email || null,
+  operation: 'DELETE',
+  before: instance.toJSON(),
+  after: null
+});
+

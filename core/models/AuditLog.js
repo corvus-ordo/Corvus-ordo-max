@@ -34,3 +34,8 @@ export default (sequelize, DataTypes) => {
 
   return AuditLog;
 };
+
+userEmail: {
+  type: DataTypes.STRING,
+  allowNull: true
+}
